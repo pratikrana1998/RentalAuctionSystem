@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V5</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<!--===============================================================================================-->
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700'>
+<!--===============================================================================================-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<!--===============================================================================================-->	
+
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Property Details
+				</span>
+
+				<!-- Section 1 -->
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+					<span class="label-input100">Property Name *</span>
+					<input class="input100" type="text" name="name" placeholder="Enter Your Property Name" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Minimum stay *</span>
+					<div>
+							<select class="js-select2" name="service">
+								<option>Select no. of months</option>
+								<option>1</option>
+								<option>6</option>
+								<option>12</option>
+							</select>
+							<div class="dropDownSelect2"></div>
+						</div>
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Room Capacity *</span>
+					<input class="input100" type="number" name="address" placeholder="Enter room capacity " pattern="[0-9]*" min="1" max="5">
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input101">
+					<span class="label-input100">Type *</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select Type</option>
+							<option>Apartment</option>
+							<option>House</option>
+							<option>Townhouse</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input101">
+					<span class="label-input100">Beds *</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>No. of beds</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input101">
+					<span class="label-input100">SQFT</span>
+					<input class="input100" type="number" name="sqft" placeholder="SQFT" pattern="[0-9]*" min="600" max="400000">
+				</div>
+	
+				<div class="container rs1-wrap-input101">
+						<div class="avatar-upload">
+							<div class="avatar-edit">
+								<input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+								<label for="imageUpload"></label>
+							</div>
+							<div class="avatar-preview">
+								<div id="imagePreview" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShWRGsR0Le1xykGO-AkCftGoGNV4intja38B_azsJjhgdGjM1m)">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container rs1-wrap-input101">
+							<div class="avatar-upload">
+								<div class="avatar-edit">
+									<input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+									<label for="imageUpload"></label>
+								</div>
+								<div class="avatar-preview">
+									<div id="imagePreview" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShWRGsR0Le1xykGO-AkCftGoGNV4intja38B_azsJjhgdGjM1m);">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="container rs1-wrap-input101">
+								<div class="avatar-upload">
+									<div class="avatar-edit">
+										<input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+										<label for="imageUpload"></label>
+									</div>
+									<div class="avatar-preview">
+										<div id="imagePreview" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShWRGsR0Le1xykGO-AkCftGoGNV4intja38B_azsJjhgdGjM1m);">
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+				<!-- Section 2 -->
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Street 1 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter street 1 address">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Street 2 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter street 2 address">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Landmark 1 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter landmark 1 address" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Landmark 2 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter landmark 2 address" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">City *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter city" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">District *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter district" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">House Number *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter house no." pattern="[0-9]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Pincode *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter pincode" pattern="[0-9][0-9][0-9][0-9][0-9][0-9]">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">State *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter state" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Country *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter country" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
+					<span class="label-input100">Description</span>
+					<textarea class="input100" name="description" placeholder="Enter your house description here..."></textarea>
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input102">
+						<span class="label-input100">Amenities</span>
+						<select multiple data-placeholder="Select what your place offers">
+								<option>Washer/Dryer</option>
+								<option>Elevator</option>
+								<option selected>Garden</option>
+								<option>Air conditioning</option>
+								<option>Garden</option>
+								<option>Balcony</option>
+								<option>Furnished</option>
+								<option>Student friendly</option>
+								<option>Utilities Included</option>
+							</select>
+					</div>
+
+					<div class="wrap-input100 bg1 rs1-wrap-input101">
+							<span class="label-input100">Available from</span>
+							<input class="input103" type="date" name="availablefrom" id="dateofbirth">
+						</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Is Balcony available*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select value</option>
+							<option>Yes</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Washroom Style*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select style</option>
+							<option>Indian</option>
+							<option>European</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Rent per month*</span>
+					<input class="input100" type="number" name="sqft" placeholder="RPM" min="100">
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Security Deposit*</span>
+					<input class="input100" type="number" name="sqft" placeholder="Security deposit" min="100">
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Tenant Category*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select category</option>
+							<option>Couple</option>
+							<option>Family</option>
+							<option>Student</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Renting Type*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select type</option>
+							<option>Sharing</option>
+							<option>Private</option>
+							<option>Both</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script>
+	var today = new Date().toISOString().split('T')[0];
+	document.getElementsByName("availablefrom")[0].setAttribute('min', today);
+</script>
+<!--===============================================================================================-->
+<script>
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+            $('#imagePreview').hide();
+            $('#imagePreview').fadeIn(650);
+        }
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+$("#imageUpload").change(function() {
+    readURL(this);
+});
+</script>
+<!--===============================================================================================-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					}
+					else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/noui/nouislider.min.js"></script>
+	<script>
+	    var filterBar = document.getElementById('filter-bar');
+
+	    noUiSlider.create(filterBar, {
+	        start: [ 1500, 3900 ],
+	        connect: true,
+	        range: {
+	            'min': 1500,
+	            'max': 7500
+	        }
+	    });
+
+	    var skipValues = [
+	    document.getElementById('value-lower'),
+	    document.getElementById('value-upper')
+	    ];
+
+	    filterBar.noUiSlider.on('update', function( values, handle ) {
+	        skipValues[handle].innerHTML = Math.round(values[handle]);
+	        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+	        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+	    });
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script>
+	$(document).ready(function() {
+
+var select = $('select[multiple]');
+var options = select.find('option');
+
+var div = $('<div />').addClass('selectMultiple');
+var active = $('<div />');
+var list = $('<ul />');
+var placeholder = select.data('placeholder');
+
+var span = $('<span />').text(placeholder).appendTo(active);
+
+options.each(function() {
+	var text = $(this).text();
+	if($(this).is(':selected')) {
+		active.append($('<a />').html('<em>' + text + '</em><i></i>'));
+		span.addClass('hide');
+	} else {
+		list.append($('<li />').html(text));
+	}
+});
+
+active.append($('<div />').addClass('arrow'));
+div.append(active).append(list);
+
+select.wrap(div);
+
+$(document).on('click', '.selectMultiple ul li', function(e) {
+	var select = $(this).parent().parent();
+	var li = $(this);
+	if(!select.hasClass('clicked')) {
+		select.addClass('clicked');
+		li.prev().addClass('beforeRemove');
+		li.next().addClass('afterRemove');
+		li.addClass('remove');
+		var a = $('<a />').addClass('notShown').html('<em>' + li.text() + '</em><i></i>').hide().appendTo(select.children('div'));
+		a.slideDown(400, function() {
+			setTimeout(function() {
+				a.addClass('shown');
+				select.children('div').children('span').addClass('hide');
+				select.find('option:contains(' + li.text() + ')').prop('selected', true);
+			}, 500);
+		});
+		setTimeout(function() {
+			if(li.prev().is(':last-child')) {
+				li.prev().removeClass('beforeRemove');
+			}
+			if(li.next().is(':first-child')) {
+				li.next().removeClass('afterRemove');
+			}
+			setTimeout(function() {
+				li.prev().removeClass('beforeRemove');
+				li.next().removeClass('afterRemove');
+			}, 200);
+
+			li.slideUp(400, function() {
+				li.remove();
+				select.removeClass('clicked');
+			});
+		}, 600);
+	}
+});
+
+$(document).on('click', '.selectMultiple > div a', function(e) {
+	var select = $(this).parent().parent();
+	var self = $(this);
+	self.removeClass().addClass('remove');
+	select.addClass('open');
+	setTimeout(function() {
+		self.addClass('disappear');
+		setTimeout(function() {
+			self.animate({
+				width: 0,
+				height: 0,
+				padding: 0,
+				margin: 0
+			}, 300, function() {
+				var li = $('<li />').text(self.children('em').text()).addClass('notShown').appendTo(select.find('ul'));
+				li.slideDown(400, function() {
+					li.addClass('show');
+					setTimeout(function() {
+						select.find('option:contains(' + self.children('em').text() + ')').prop('selected', false);
+						if(!select.find('option:selected').length) {
+							select.children('div').children('span').removeClass('hide');
+						}
+						li.removeClass();
+					}, 400);
+				});
+				self.remove();
+			})
+		}, 300);
+	}, 400);
+});
+
+$(document).on('click', '.selectMultiple > div .arrow, .selectMultiple > div span', function(e) {
+	$(this).parent().parent().toggleClass('open');
+});
+
+});
+</script>
+</body>
+</html>
