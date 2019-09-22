@@ -48,19 +48,28 @@
 					Property Details
 				</span>
 
+				<!-- Section 1 -->
 				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
 					<span class="label-input100">Property Name *</span>
-					<input class="input100" type="text" name="name" placeholder="Enter Your Property Name">
+					<input class="input100" type="text" name="name" placeholder="Enter Your Property Name" pattern="[A-Z,a-z]*">
 				</div>
 
 				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
-					<span class="label-input100">Address *</span>
-					<input class="input100" type="text" name="address" placeholder="Enter Your Address ">
+					<span class="label-input100">Minimum stay *</span>
+					<div>
+							<select class="js-select2" name="service">
+								<option>Select no. of months</option>
+								<option>1</option>
+								<option>6</option>
+								<option>12</option>
+							</select>
+							<div class="dropDownSelect2"></div>
+						</div>
 				</div>
 
-				<div class="wrap-input100 bg1 rs1-wrap-input100">
-					<span class="label-input100">Units</span>
-					<input class="input100" type="text" name="units" placeholder="#units">
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Room Capacity *</span>
+					<input class="input100" type="number" name="address" placeholder="Enter room capacity " pattern="[0-9]*" min="1" max="5">
 				</div>
 
 				<div class="wrap-input100 input100-select bg1 rs1-wrap-input101">
@@ -91,7 +100,7 @@
 
 				<div class="wrap-input100 bg1 rs1-wrap-input101">
 					<span class="label-input100">SQFT</span>
-					<input class="input100" type="text" name="sqft" placeholder="SQFT">
+					<input class="input100" type="number" name="sqft" placeholder="SQFT" pattern="[0-9]*" min="600" max="400000">
 				</div>
 	
 				<div class="container rs1-wrap-input101">
@@ -134,6 +143,57 @@
 							</div>
 
 
+				<!-- Section 2 -->
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Street 1 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter street 1 address">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Street 2 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter street 2 address">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Landmark 1 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter landmark 1 address" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Landmark 2 *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter landmark 2 address" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">City *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter city" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">District *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter district" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">House Number *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter house no." pattern="[0-9]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Pincode *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter pincode" pattern="[0-9][0-9][0-9][0-9][0-9][0-9]">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">State *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter state" pattern="[A-Z,a-z]*">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Address">
+					<span class="label-input100">Country *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter country" pattern="[A-Z,a-z]*">
+				</div>
+
 				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
 					<span class="label-input100">Description</span>
 					<textarea class="input100" name="description" placeholder="Enter your house description here..."></textarea>
@@ -158,6 +218,66 @@
 							<span class="label-input100">Available from</span>
 							<input class="input103" type="date" name="availablefrom" id="dateofbirth">
 						</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Is Balcony available*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select value</option>
+							<option>Yes</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Washroom Style*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select style</option>
+							<option>Indian</option>
+							<option>European</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Rent per month*</span>
+					<input class="input100" type="number" name="sqft" placeholder="RPM" min="100">
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Security Deposit*</span>
+					<input class="input100" type="number" name="sqft" placeholder="Security deposit" min="100">
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Tenant Category*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select category</option>
+							<option>Couple</option>
+							<option>Family</option>
+							<option>Student</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Renting Type*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Select type</option>
+							<option>Sharing</option>
+							<option>Private</option>
+							<option>Both</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
 
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
