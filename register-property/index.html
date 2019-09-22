@@ -291,6 +291,10 @@
 		</div>
 	</div>
 
+	<script>
+	var today = new Date().toISOString().split('T')[0];
+	document.getElementsByName("availablefrom")[0].setAttribute('min', today);
+</script>
 <!--===============================================================================================-->
 <script>
 function readURL(input) {
